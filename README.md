@@ -1,6 +1,10 @@
 # 🏗️ Roof Measurement App - Development Plan
+The Roof Measurement App is a web-based platform designed to help roofing professionals instantly calculate roof areas, slopes, and estimated project costs using satellite imagery and machine learning, this app empowers sales teams, contractors, and estimators to skip manual measurements and deliver fast, accurate estimates with minimal effort.
 
----
+The goal is to build a fast, user-friendly solution that simplifies roof assessments while providing tools like PDF reports, quote calculators, and damage detection as optional enhancements. The app will use Python (FastAPI) for backend and image analysis, and React.js for a responsive frontend experience.
+
+This document outlines the end-to-end plan including features, architecture, technologies, and phased delivery using an MVP-first approach — allowing us to deliver quickly and improve based on real user feedback.
+
 
 ## 🧩 Project Overview
 
