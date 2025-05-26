@@ -59,21 +59,17 @@
 ## ⚙️ Tech Stack Summary
 
 ### 🔧 Backend (Python)
-
-* **FastAPI** – REST API framework
-* **MongoDB** – NoSQL DB for users, jobs, reports
-* **OpenCV + PyTorch** – Image analysis (optional ML)
-* **Shapely + Geopandas** – Geometry & pitch calc
-* **ReportLab / WeasyPrint** – PDF generation
+......
 
 ### 🎨 Frontend (React.js)
 
 * **React + Vite** – Frontend app
-* **TailwindCSS / Chakra UI** – UI design
+* **TailwindCSS** – UI design
 * **React-Leaflet / Mapbox GL JS** – Map integration
 * **React Hook Form / Zod** – Form handling + validation
 
-### ☁️ DevOps & Infra
+### ☁️ DevOps
+......
 
 ---
 
