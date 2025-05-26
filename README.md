@@ -16,23 +16,19 @@ This document outlines the end-to-end plan including features, architecture, tec
 
 ## 🧭 Flow Architecture (From Diagram)
 
-```text
-[address or coords]        [job id]  
-       \                     /  
-     [detect images + edges + get images from API / ML model]  
-                       ↓
-              [capture images]   <--- (optionally vision upload input for damage)
-                       ↓
-              ┌──────────────┐
-              ↓              ↓
-       [detect roofs]     [detect damage]
-              ↓              ↓
-              └─────> [measurement] 
-                              ↓
-                     [cost calculation]
-                              ↓
-                        [dashboard view]
+```mermaid
+graph TD
+    A["Address or Coords: User enters property address or GPS coordinates"] --> C["Detect Images + Edges: Fetch satellite image, detect roof edges using API or AI model"]
+    B["Job ID: Generate unique ID for the request"] --> C
+    C --> D["Capture Images: Save satellite or drone images for analysis and audit"]
+    D --> E["Detect Roofs: Use ML model to extract roof geometry"]
+    D --> F["Detect Damage: Classify visual damage (optional via YOLOv8 or similar)"]
+    E --> G["Measurement: Calculate area (sq), pitch, and waste factor"]
+    F --> G
+    G --> H["Cost Calculation: Apply pricing rules and estimate total job cost"]
+    H --> I["Dashboard View: Job list, reports, cost summary, PDF download"]
 ```
+
 
 ---
 
