@@ -1,4 +1,4 @@
-# 🏗️ Roof Measurement App - Development Plan
+# Roof Measurement App - Development Plan
 The Roof Measurement App is a web-based platform designed to help roofing professionals instantly calculate roof areas, slopes, and estimated project costs using satellite imagery and machine learning, this app empowers sales teams, contractors, and estimators to skip manual measurements and deliver fast, accurate estimates with minimal effort.
 
 The goal is to build a fast, user-friendly solution that simplifies roof assessments while providing tools like PDF reports, quote calculators, and damage detection as optional enhancements. The app will use Python (FastAPI) for backend and image analysis, and React.js for a responsive frontend experience.
@@ -6,7 +6,7 @@ The goal is to build a fast, user-friendly solution that simplifies roof assessm
 This document outlines the end-to-end plan including features, architecture, technologies, and phased delivery using an MVP-first approach — allowing us to deliver quickly and improve based on real user feedback.
 
 
-## 🧩 Project Overview
+## Project Overview
 
 * **Purpose:** Provide instant roof measurements using satellite imagery.
 * **Target Users:** Roofing professionals, sales teams, estimators.
@@ -14,7 +14,7 @@ This document outlines the end-to-end plan including features, architecture, tec
 
 ---
 
-## 🧭 Flow Architecture (From Diagram)
+## Flow Architecture (From Diagram)
 
 ```mermaid
 graph TD
@@ -32,7 +32,7 @@ graph TD
 
 ---
 
-## 🗺️ Development Roadmap (Stage Chart)
+## Development Roadmap (Stage Chart)
 
 | Stage                                     | Description                                             | Technologies                         | Deliverables                          |
 | ----------------------------------------- | ------------------------------------------------------- | ------------------------------------ | ------------------------------------- |
@@ -56,43 +56,35 @@ graph TD
 
 ---
 
-## ⚙️ Tech Stack Summary
+## Tech Stack Summary
 
-### 🔧 Backend (Python)
+### Backend (Python)
 ......
 
-### 🎨 Frontend (React.js)
+### Frontend (React.js)
 
 * **React + Vite** – Frontend app
 * **TailwindCSS** – UI design
 * **React-Leaflet / Mapbox GL JS** – Map integration
 * **React Hook Form / Zod** – Form handling + validation
 
-### ☁️ DevOps
+### DevOps
 ......
 
 ---
 
-## 📦 Deliverables by Milestone
+## Deliverables by Milestone
 
-### 📍 MVP
+### MVP
 
 * Address-to-measurement flow
 * Roof area calculator
 * PDF report download
 * User login + dashboard
 
-### 🚀 Post-MVP Enhancements
+### Post-MVP Enhancements
 
 * AI-based auto roof detection
 * Damage classification
 * Quote & financing calculator
 * Admin analytics tools
-
----
-
-## 📌 Next Steps
-
-1. Finalize product spec & wireframes
-2. Choose imagery provider (Google, Mapbox, Nearmap,...)
-3. Begin backend (Python) and frontend (React) scaffolding
